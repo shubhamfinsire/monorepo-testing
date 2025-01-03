@@ -1,11 +1,15 @@
 import { useState } from "react";
+import { Btn } from "@commo/common";
+// import { Btn } from 
 
 // import "./App.css";
 
 function App() {
   return (
     <div>
-      react app<div>updated</div>
+      <p>react app</p>
+      <div>updated</div>
+      <Btn />
     </div>
   );
 }
